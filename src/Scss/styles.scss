@@ -2,7 +2,7 @@ $primaryColor: rgb(83, 26, 93);
 $navColor: rgb(93, 26, 93);
 $secondaryColor: rgb(53, 26, 93);
 $thirdColor: rgb(33, 26, 93);
-$fourthColor: rgb(13, 26, 93);
+$fourthColor: rgb(103, 26, 93);
 $lightColor: #f4f4f4;
 //  MISC SCSS
 .spacer {
@@ -73,3 +73,10 @@ $lightColor: #f4f4f4;
 }
 
 // FOOTER SCSS
+
+// LOBBY SCSS
+.lobby {
+  background-color: $primaryColor;
+  color: white;
+  height: 100vh;
+}

@@ -35,13 +35,13 @@ const Mynav = (props) => {
                                 <NavItem className="nav-link">
                                     <NavLink className="d-flex justify-content-center text-white" href="/home">
                                         <FaHome/>
-                                        Home
+                                        {` Home`}
                                     </NavLink>
                                 </NavItem>
                                 <NavItem className="nav-link">
-                                    <NavLink className="d-flex justify-content-center text-white" href="/home">
+                                    <NavLink className="d-flex justify-content-center text-white" href="/resume">
                                         <FaFolder/>
-                                         Home
+                                         Resume
                                     </NavLink>
                                 </NavItem>
                                 

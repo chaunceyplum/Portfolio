@@ -48,7 +48,7 @@
 }
 
 .bg3 {
-  background-color: #0d1a5d;
+  background-color: #671a5d;
 }
 
 .card {
@@ -79,5 +79,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.lobby {
+  background-color: #531a5d;
+  color: white;
+  height: 100vh;
 }
 /*# sourceMappingURL=styles.css.map */
