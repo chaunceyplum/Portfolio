@@ -1,4 +1,2 @@
 [build]
 CI= npm run build
-base="Portfolio/"
-publish="/build"
