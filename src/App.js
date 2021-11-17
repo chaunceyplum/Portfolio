@@ -39,12 +39,12 @@ export default class App extends Component {
     return (
       <div>
           
-            <HashRouter>
+            <HashRouter basename="/ ">
               <Mynav />
                 <Switch > 
                   
-                  <Route path ="/home#" component={Homepage} />
-                  <Route path ="/lobby" component={Lobbypage} />
+                  <Route path ="/home#" render={props => <Home {...props} />} />
+                  <Route path ="/lobby" render={props => <Lobby {...props} />}  />
                   {/* <Redirect to="/lobby" /> */}
                 </Switch>
               <Footer  className="fixed-bottom"/>
