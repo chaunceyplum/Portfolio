@@ -1,0 +1,75 @@
+$primaryColor: rgb(83, 26, 93);
+$navColor: rgb(93, 26, 93);
+$secondaryColor: rgb(53, 26, 93);
+$thirdColor: rgb(33, 26, 93);
+$fourthColor: rgb(13, 26, 93);
+$lightColor: #f4f4f4;
+//  MISC SCSS
+.spacer {
+  padding: 25px 25px 25px 25px;
+}
+.rounded {
+  border-radius: 25% 10% !important;
+}
+.buttons {
+  background-color: $secondaryColor !important;
+  color: white !important;
+  border: white;
+}
+
+//    NAV SCSS
+.nav {
+  background-color: $navColor;
+  color: $lightColor;
+}
+.navbar {
+  //   border-bottom: 5px  black !important;
+  -webkit-box-shadow: 0px 1px 1px rgb(24, 24, 29);
+  -moz-box-shadow: 0px 1px 1px rgb(24, 24, 29);
+  box-shadow: 0px 2px 10px rgb(24, 24, 29);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.unstyle {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+//  HOME SCSS
+.bg {
+  background-color: $primaryColor;
+  color: $lightColor;
+  text-align: center;
+}
+.bg1 {
+  background-color: $secondaryColor;
+  color: $lightColor;
+  border: 10px solid $thirdColor;
+  text-align: center;
+}
+.bg2 {
+  background-color: $thirdColor;
+}
+.bg3 {
+  background-color: $fourthColor;
+}
+.card {
+  box-shadow: 0 0 20px 3px rgb(24, 24, 29);
+}
+.cardBg {
+  background-color: $primaryColor !important;
+}
+.cardHeader {
+  background-color: $thirdColor !important;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.flexDisplay {
+  display: flex;
+  flex-direction: row;
+}
+
+// FOOTER SCSS
