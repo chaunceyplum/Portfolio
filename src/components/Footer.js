@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
-import { Button, Col, Container, Row } from 'reactstrap'
+import { Button, Col, Row } from 'reactstrap'
 
 const Footer = (props) => {
     return (

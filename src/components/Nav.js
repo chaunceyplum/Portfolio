@@ -1,9 +1,7 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, {useState} from 'react';
-import { Nav, NavbarBrand, NavItem, NavLink, NavbarToggler, Collapse, Navbar, NavbarText, Container, Col} from 'reactstrap';
+import { Nav, NavbarBrand, NavItem, NavLink, NavbarToggler, Collapse, Navbar, Container } from 'reactstrap';
 
-import { FaContao, FaFile, FaFolder, FaHome, FaPhoneAlt } from 'react-icons/fa';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { FaFolder, FaHome } from 'react-icons/fa';
 
 
 const Mynav = (props) => {
@@ -15,7 +13,7 @@ const Mynav = (props) => {
     return (
         <div  >
              <Navbar  sticky="top" dark className ="navbar bg spacer sticky-top nav" >
-                <BrowserRouter className="">
+                
                     <Container >
                         <NavbarBrand className="unstyle" to="/home">
                             <a className="unstyle" href="/" tooltip="/">
@@ -52,7 +50,7 @@ const Mynav = (props) => {
                             </Nav>
                         </Collapse>
                     </Container>
-                </BrowserRouter>
+                
             </Navbar> 
         
 
