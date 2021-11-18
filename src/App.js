@@ -5,10 +5,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import Footer from './components/Footer';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home'
 import Lobby from './components/Lobby';
-import ParticleBG from './components/ParticleBG';
 
 
 library.add(fab, faCheckSquare, faCoffee)
@@ -40,16 +39,16 @@ export default class App extends Component {
     return (
       <div>
           <Mynav />
-            <HashRouter basename="/">
+            <BrowserRouter >
               
                 <Routes > 
                   
-                  <Route exact path={"/home"} element={props => <Home {...props} />} />
-                  <Route exact path ="/" element={props => <Lobby {...props} />}  />
+                  <Route exact path="/home" element={<Home />} />
+                  <Route exact path ="/" element={<Lobby />}  />
                    
                 </Routes>
               
-            </HashRouter> 
+            </BrowserRouter> 
             <Footer  className="fixed-bottom"/>
       </div>
 
