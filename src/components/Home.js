@@ -71,7 +71,7 @@ const Home = () => {
                         
 
                     </Col>
-                    <Col className="bg1">
+                    <Col className="bg1 rounded">
                         <h3 className="spacer">
                             My Projects
                         </h3>

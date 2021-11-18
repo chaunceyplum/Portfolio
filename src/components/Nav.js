@@ -18,8 +18,8 @@ const Mynav = (props) => {
                 <BrowserRouter className="">
                     <Container >
                         <NavbarBrand className="unstyle" to="/home">
-                            <a className="unstyle" href="/home" tooltip="/home">
-                                <h4 className="unstyle">
+                            <a className="unstyle" href="/" tooltip="/">
+                                <h4 className="unstyle ">
                                     CP
                                 </h4>
                             </a>
