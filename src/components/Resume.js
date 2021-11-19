@@ -12,7 +12,7 @@ const Resume = () => {
                 <Container xs={10} >
                     
                         <Col className="col col-8 ms-auto" xs={12} lg={6}>
-                            <Row className="mr-auto">
+                            <Row className="mr-auto spacer">
                                 <h3 className="spacer mr-auto ">
                                     Chauncey Plummer
                                 </h3>
@@ -20,7 +20,7 @@ const Resume = () => {
                                     Full Stack Web Developer
                                 </h6>
                             </Row>
-                            <Row>
+                            <Row className="spacer ">
                                 <h4 className="spacer  bg2 ">
                                     Projects
                                 </h4>
@@ -63,7 +63,7 @@ const Resume = () => {
                                 Associates degree in Network Administration Courses completed:  Intro to Computer systems, Network Security, Advanced Network Security, Unix NOS, Advanced Unix NOS, Windows NT NOS, Advanced Windows NT, Intro to Python and Computer Repair
                                 </p>
                             </Row>
-                            <Row>
+                            <Row className="spacer ">
                                 <h3 className="bg2  spacer ">
                                     Certificates
                                 </h3>
@@ -106,7 +106,7 @@ const Resume = () => {
                                     <li className="spacer text-center">JavaScript</li>
                                 </ul>
                             </Row>
-                            <Row>
+                            <Row className="spacer ">
                                 <h4 className="bg2  spacer text-center">
                                     Skills
                                 </h4>
