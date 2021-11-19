@@ -87,6 +87,7 @@ const Home = () => {
                                                         {project.name}
                                                     </h3>
                                                 </CardHeader>
+                                                <br className="bg1 !important" />
                                                 <CardBody className="cardBg">
                                                     <p>
                                                         {`Project Stack: ${project.stack}`}

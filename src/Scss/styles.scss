@@ -1,7 +1,6 @@
 * {
   margin: 0;
 }
-
 $primaryColor: rgb(83, 26, 93);
 // $primaryColor: white;
 $navColor: rgb(103, 26, 93);
@@ -14,7 +13,7 @@ $lightColor: #f4f4f4;
   padding: 25px 25px 25px 25px;
 }
 .rounded {
-  border-radius: 25% 10% !important;
+  border-radius: 25% !important;
 }
 .buttons {
   background-color: $secondaryColor !important;
@@ -60,7 +59,7 @@ p {
   text-align: center;
 }
 .bg1 {
-  background-color: $secondaryColor;
+  background-color: $secondaryColor !important;
   color: $lightColor;
   border: 10px solid $thirdColor;
   text-align: center;
@@ -73,25 +72,29 @@ p {
 }
 .card {
   box-shadow: 0 0 20px 3px rgb(24, 24, 29);
+
+  background-color: $secondaryColor !important;
 }
 .cardBg {
   background-color: $primaryColor !important;
-  border-radius: 25% !important;
 }
 .cardHeader {
   background-color: $thirdColor !important;
-  border-radius: 25% !important;
 }
 .card:hover {
-  transform: scale(1.1);
-  transition-duration: 1s;
+  transform: scale(1.3);
+  transition-duration: 0.7s;
 }
 .flexDisplay {
   display: flex;
   flex-direction: row;
 }
 
-// FOOTER SCSS
+// RESUME SCSS
+.resume {
+  background-color: $primaryColor !important;
+  color: white;
+}
 
 // LOBBY SCSS
 .lobby {
@@ -101,7 +104,6 @@ p {
 }
 .lobbySpacer {
   margin: auto;
-  width: 50%;
   display: flex;
   justify-content: center;
 }
