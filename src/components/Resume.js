@@ -8,10 +8,10 @@ const Resume = () => {
             <h3 className="text-center spacer">
                 My Resume
             </h3>
-            <Container className='bg1 ' xs={12}>
+            <Container className='bg1 ' >
                 <Container >
                     <Row>
-                        <main className="col col-8 ms-auto">
+                        <main className="col col-8 ms-auto" xs={12} lg={8}>
                             <Row className="mr-auto">
                                 <h3 className="spacer mr-auto ">
                                     Chauncey Plummer
@@ -94,7 +94,7 @@ const Resume = () => {
                                 </ul>
                             </Row>
                         </main>
-                        <aside className="col col-4">
+                        <aside className="col col-4" xs={12} lg={4}>
                             <Row className="spacer">
                                 <h6>
                                     Chaunceyplum@gmail.com
