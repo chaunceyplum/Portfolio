@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from 'reactstrap'
+import { Button, Col, Row } from 'reactstrap'
 
 const Lobby = () => {
     return (
@@ -11,11 +11,15 @@ const Lobby = () => {
                 <p className="text-center spacer">
                     An infeciously enthusiastic Full Stack bootcamp graduate with fundamental knowledge of web development. Seeking to utilize advanced expertise in javaScript
                 </p>
-                <Button href="/home" className="btn btn-lg  buttons spacer">
-                    <h6>
-                        Learn More
-                    </h6>
-                </Button>
+                <Row>
+                    <Col />
+                    <Col className="text-center">
+                        <Button href="/home" className="btn btn-lg  buttons spacer center">
+                            Learn More
+                        </Button>
+                    </Col>
+                    <Col />
+                </Row>
             </div>
         </div>
     )

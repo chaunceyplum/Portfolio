@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 $primaryColor: rgb(83, 26, 93);
 // $primaryColor: white;
 $navColor: rgb(103, 26, 93);
@@ -16,11 +20,15 @@ $lightColor: #f4f4f4;
   background-color: $secondaryColor !important;
   color: white !important;
   border: white;
+  margin: 0 !important;
 }
 .center {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 p {
   line-height: 2;
@@ -68,9 +76,11 @@ p {
 }
 .cardBg {
   background-color: $primaryColor !important;
+  border-radius: 25% !important;
 }
 .cardHeader {
   background-color: $thirdColor !important;
+  border-radius: 25% !important;
 }
 .card:hover {
   transform: scale(1.1);

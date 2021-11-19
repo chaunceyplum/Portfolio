@@ -71,7 +71,8 @@ const Home = () => {
                         
 
                     </Col>
-                    <Col className="bg1 rounded">
+                    <Col xs={1}/>
+                    <Col className="bg1 rounded" xs={12} md={7}>
                         <h3 className="spacer">
                             My Projects
                         </h3>
@@ -102,9 +103,15 @@ const Home = () => {
                                                                 Link to Github
                                                             </Button>
                                                         </Col>
+                                                        <Col>
+                                                            <Button href={project.githubLink} className="buttons" disabled={true}>
+                                                                Link to Project
+                                                            </Button>
+                                                        </Col>
                                                     </Row>
                                                 </CardBody>
                                             </Card>
+                                            <br />
                                             <br />
                                         </div>
                                     )
