@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home'
 import Lobby from './components/Lobby';
+import Resume from './components/Resume'
 
 
 
@@ -27,8 +28,8 @@ export default class App extends Component {
 
               <Route exact path ="/" element={<Lobby />}  />
               <Route exact path="/home" element={<Home />} />
-              <Route exact path="/resume" element={<Home />} />
-              
+              <Route exact path="/resume" element={<Resume />} />
+               
             </Routes>
             
             <Footer  className="fixed-bottom"/>

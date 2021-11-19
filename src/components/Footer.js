@@ -22,11 +22,11 @@ const Footer = (props) => {
                 
                 <Row className="centerFooter justify-content-space-evenly spacer" >
                     
-                    <Col className="d-flex justify-content-center spacer">
+                    {/* <Col className="d-flex justify-content-center spacer">
                         <Button href='https://www.instagram.com/chaveloper/' className='buttons' size="20em">
                             <FaInstagram />
                         </Button>
-                    </Col>
+                    </Col> */}
                     <Col className="d-flex justify-content-center spacer">
                         <Button href='https://www.linkedin.com/in/chauncey-plummer-5457361bb/' className='buttons' size="20em">
                             <FaLinkedin />

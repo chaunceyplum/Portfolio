@@ -1,5 +1,6 @@
 $primaryColor: rgb(83, 26, 93);
-$navColor: rgb(93, 26, 93);
+// $primaryColor: white;
+$navColor: rgb(103, 26, 93);
 $secondaryColor: rgb(53, 26, 93);
 $thirdColor: rgb(33, 26, 93);
 $fourthColor: rgb(103, 26, 93);
@@ -15,6 +16,14 @@ $lightColor: #f4f4f4;
   background-color: $secondaryColor !important;
   color: white !important;
   border: white;
+}
+.center {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+p {
+  line-height: 2;
 }
 
 //    NAV SCSS
@@ -76,9 +85,13 @@ $lightColor: #f4f4f4;
 
 // LOBBY SCSS
 .lobby {
-  background-color: $primaryColor;
+  background-color: $primaryColor !important;
   color: white;
   height: 100vh;
 }
 .lobbySpacer {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }

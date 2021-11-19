@@ -17,7 +17,7 @@ const Home = () => {
         <div className="bg">
             <Container className="bg spacer">
                 <Row className="bg space-evenly">
-                    <Col className="bg1 rounded">
+                    <Col className="bg1 rounded " xs={12} lg={4}>
                         <h3 className=" spacer" >
                             Chauncey Plummer
                         </h3>
@@ -43,11 +43,11 @@ const Home = () => {
                         
                         <Row className="centerFooter justify-content-space-evenly spacer" >
                         
-                            <Col className="d-flex justify-content-center spacer">
+                            {/* <Col className="d-flex justify-content-center spacer">
                                 <Button href='https://www.instagram.com/chaveloper/' className='buttons' size="20em">
                                     <FaInstagram />
                                 </Button>
-                            </Col>
+                            </Col> */}
                             <Col className="d-flex justify-content-center spacer">
                                 <Button href='https://www.linkedin.com/in/chauncey-plummer-5457361bb/' className='buttons' size="20em">
                                     <FaLinkedin />
@@ -75,40 +75,42 @@ const Home = () => {
                         <h3 className="spacer">
                             My Projects
                         </h3>
-                        {
-                            projects.map((project, index) => {
-                                return(
-                                    <div className=""  key={index}>
-                                        <Card className=" ">
-                                            <CardHeader className="cardHeader">
-                                                <h3>
-                                                    {project.name}
-                                                </h3>
-                                            </CardHeader>
-                                            <CardBody className="cardBg">
-                                                <p>
-                                                    {`Project Stack: ${project.stack}`}
-                                                </p>
-                                                <p>
-                                                    {
-                                                        `Technologies Used: ${project.technologies}`
-                                                    }
-                                                </p>
-                                                
-                                                <Row>
-                                                    <Col>
-                                                        <Button href={project.githubLink} className="buttons">
-                                                            Link to Github
-                                                        </Button>
-                                                    </Col>
-                                                </Row>
-                                            </CardBody>
-                                        </Card>
-                                        <br />
-                                    </div>
-                                )
-                            })
-                        }
+                        <div className="col-10 justify-content-center mx-auto space-evenly rounded" md={8} xs={12}>
+                            {
+                                projects.map((project, index) => {
+                                    return(
+                                        <div className=""  key={index}>
+                                            <Card className="rounded">
+                                                <CardHeader className="cardHeader">
+                                                    <h3>
+                                                        {project.name}
+                                                    </h3>
+                                                </CardHeader>
+                                                <CardBody className="cardBg">
+                                                    <p>
+                                                        {`Project Stack: ${project.stack}`}
+                                                    </p>
+                                                    <p>
+                                                        {
+                                                            `Technologies Used: ${project.technologies}`
+                                                        }
+                                                    </p>
+                                                    
+                                                    <Row>
+                                                        <Col>
+                                                            <Button href={project.githubLink} className="buttons">
+                                                                Link to Github
+                                                            </Button>
+                                                        </Col>
+                                                    </Row>
+                                                </CardBody>
+                                            </Card>
+                                            <br />
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div>
                     </Col>
                 </Row>
             </Container>

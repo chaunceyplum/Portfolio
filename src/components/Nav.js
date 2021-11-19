@@ -17,7 +17,7 @@ const Mynav = (props) => {
                     <Container >
                         <NavbarBrand className="unstyle" to="/home">
                             <a className="unstyle" href="/" tooltip="/">
-                                <h4 className="unstyle ">
+                                <h4 className="unstyle bg4">
                                     CP
                                 </h4>
                             </a>
@@ -32,13 +32,13 @@ const Mynav = (props) => {
                             <Nav className=" justify-content-center" bsStyle="pills" navbar>
                                 <NavItem className="nav-link">
                                     <NavLink className="d-flex justify-content-center text-white" href="/home">
-                                        <FaHome/>
+                                        {/* <FaHome/> */}
                                         {` Home`}
                                     </NavLink>
                                 </NavItem>
                                 <NavItem className="nav-link">
                                     <NavLink className="d-flex justify-content-center text-white" href="/resume">
-                                        <FaFolder/>
+                                        {/* <FaFolder/> */}
                                          Resume
                                     </NavLink>
                                 </NavItem>
