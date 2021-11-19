@@ -11,7 +11,7 @@ const Resume = () => {
             
                 <Container xs={10} >
                     
-                        <Col className="col col-8 ms-auto" xs={12} lg={6}>
+                        <Col className="col col-8 ms-auto" xs={12} >
                             <Row className="mr-auto spacer">
                                 <h3 className="spacer mr-auto ">
                                     Chauncey Plummer
@@ -94,7 +94,7 @@ const Resume = () => {
                                 </ul>
                             </Row>
                         </Col>
-                        <Col className="col col-4" xs={12} lg={6}>
+                        <Col className="col col-4" xs={12} >
                             
                             <Row className="spacer">
                                 <h4 className="bg2  spacer text-center">
