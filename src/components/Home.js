@@ -17,7 +17,7 @@ const Home = () => {
         <div className="bg">
             <Container className="bg spacer">
                 <Row className="bg space-evenly">
-                    <Col className="bg1 rounded " xs={12} lg={4}>
+                    <Col className="bg1 " xs={12} lg={4}>
                         <h3 className=" spacer" >
                             Chauncey Plummer
                         </h3>
@@ -72,7 +72,7 @@ const Home = () => {
 
                     </Col>
                     <Col xs={1}/>
-                    <Col className="bg1 rounded" xs={12} md={7}>
+                    <Col className="bg1 " xs={12} md={7}>
                         <h3 className="spacer">
                             My Projects
                         </h3>
