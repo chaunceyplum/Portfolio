@@ -97,32 +97,60 @@ const Resume = () => {
                         <Col className="col col-4" xs={12} >
                             
                             <Row className="spacer">
-                                <h4 className="bg2  spacer text-center">
+                                <h4 className="bg2  spacer">
                                     My Languages
                                 </h4>
                                 <ul className="unstyle">
-                                    <li className="spacer text-center">HTML5</li>
-                                    <li className="spacer text-center">CSS3</li>
-                                    <li className="spacer text-center">JavaScript</li>
+                                    <li className="spacer ">
+                                        HTML5
+                                    </li>
+                                    <li className="spacer">
+                                        CSS3
+                                    </li>
+                                    <li className="spacer">
+                                        JavaScript
+                                    </li>
                                 </ul>
                             </Row>
                             <Row className="spacer ">
-                                <h4 className="bg2  spacer text-center">
+                                <h4 className="bg2  spacer">
                                     Skills
                                 </h4>
                                 <ul className="unstyle">
 
-                                    <li className="text-center spacer">React</li>
-                                    <li className="text-center spacer">React Native</li>
-                                    <li className="text-center spacer">Redux</li>
-                                    <li className="text-center spacer">Bootstrap</li>
-                                    <li className="text-center spacer">Node</li>
-                                    <li className="text-center spacer">Express</li>
-                                    <li className="text-center spacer">MongoDB</li>
-                                    <li className="text-center spacer">Sass</li>
-                                    <li className="text-center spacer">RESTful Services</li>
-                                    <li className="text-center spacer">Responsive/Mobile Design</li>
-                                    <li className="text-center spacer">Git</li>
+                                    <li className="spacer">
+                                        React
+                                    </li>
+                                    <li className="spacer">
+                                        React Native
+                                    </li>
+                                    <li className="spacer">
+                                        Redux
+                                    </li>
+                                    <li className="spacer">
+                                        Bootstrap
+                                    </li>
+                                    <li className="spacer">
+                                        Node
+                                    </li>
+                                    <li className="spacer">
+                                        Express
+                                    </li>
+                                    <li className="spacer">
+                                        MongoDB
+                                    </li>
+                                    <li className="spacer">
+                                        Sass
+                                    </li>
+                                    <li className="spacer">
+                                        RESTful Services
+                                    </li>
+                                    <li className=" spacer">
+                                        Responsive/Mobile Design
+                                    </li>
+                                    <li className="spacer">
+                                        Git
+                                    </li>
                                 </ul>
                             </Row>
                         </Col >

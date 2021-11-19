@@ -6,19 +6,26 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home'
 import Lobby from './components/Lobby';
 import Resume from './components/Resume'
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 const App = () => {
+  
+  
+  
   return (
     <div>
       <Mynav />
+      <TransitionGroup>
+        <CSSTransition key={Location.key} classNames="page" timeout={300}>
+          <Routes > 
 
-      <Routes > 
-
-        <Route exact path ="/" element={<Lobby />}  />
-        <Route exact path="/home" element={<Home />} />
-        <Route exact path="/resume" element={<Resume />} />
-   
-      </Routes>
+            <Route exact path ="/" element={<Lobby />}  />
+            <Route exact path="/home" element={<Home />} />
+            <Route exact path="/resume" element={<Resume />} />
+          </Routes>
+        </CSSTransition>
+      </TransitionGroup>
+          
 
       <Footer  className="fixed-bottom"/>
     </div>
