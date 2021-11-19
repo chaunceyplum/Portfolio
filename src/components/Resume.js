@@ -8,10 +8,10 @@ const Resume = () => {
             <h3 className="text-center spacer">
                 My Resume
             </h3>
-            <Container className='bg1 ' >
-                <Container >
-                    <Row>
-                        <main className="col col-8 ms-auto" xs={12} lg={8}>
+            
+                <Container xs={10} >
+                    
+                        <Col className="col col-8 ms-auto" xs={12} lg={6}>
                             <Row className="mr-auto">
                                 <h3 className="spacer mr-auto ">
                                     Chauncey Plummer
@@ -21,7 +21,7 @@ const Resume = () => {
                                 </h6>
                             </Row>
                             <Row>
-                                <h4 className="spacer  bg2 rounded">
+                                <h4 className="spacer  bg2 ">
                                     Projects
                                 </h4>
                                 <h5 className="spacer ">
@@ -45,7 +45,7 @@ const Resume = () => {
                                 </h6>
                             </Row>
                             <Row className="spacer ">
-                                <h4 className="spacer  bg2 rounded">
+                                <h4 className="spacer  bg2 ">
                                     Education
                                 </h4>
                                 <h6 className="spacer ">
@@ -64,7 +64,7 @@ const Resume = () => {
                                 </p>
                             </Row>
                             <Row>
-                                <h3 className="bg2 rounded spacer ">
+                                <h3 className="bg2  spacer ">
                                     Certificates
                                 </h3>
                                 <ul className="unstyle">
@@ -93,15 +93,11 @@ const Resume = () => {
                                     </li>
                                 </ul>
                             </Row>
-                        </main>
-                        <aside className="col col-4" xs={12} lg={4}>
+                        </Col>
+                        <Col className="col col-4" xs={12} lg={6}>
+                            
                             <Row className="spacer">
-                                <h6>
-                                    Chaunceyplum@gmail.com
-                                </h6>
-                            </Row>
-                            <Row className="spacer">
-                                <h4 className="bg2 rounded spacer text-center">
+                                <h4 className="bg2  spacer text-center">
                                     My Languages
                                 </h4>
                                 <ul className="unstyle">
@@ -111,7 +107,7 @@ const Resume = () => {
                                 </ul>
                             </Row>
                             <Row>
-                                <h4 className="bg2 rounded spacer text-center">
+                                <h4 className="bg2  spacer text-center">
                                     Skills
                                 </h4>
                                 <ul className="unstyle">
@@ -129,12 +125,11 @@ const Resume = () => {
                                     <li className="text-center spacer">Git</li>
                                 </ul>
                             </Row>
-                        </aside >
+                        </Col >
 
-                    </Row>
+                    
                     
                 </Container>
-            </Container>
         </div>
     )
 }
