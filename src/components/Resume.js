@@ -8,7 +8,7 @@ const Resume = () => {
             <h3 className="text-center spacer">
                 My Resume
             </h3>
-            <Container className='bg1 rounded'>
+            <Container className='bg1'>
                 <Container >
                     <Row>
                         <main className="col col-8 ms-auto">
