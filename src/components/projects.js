@@ -32,7 +32,7 @@ export const projects = [
         technologies:"Bootstrap, Axios,Redux",
         description: "blah",
         githubLink:'https://github.com/chaunceyplum/GameHop',
-        projectLink:'https://cryptoreactappp.netlify.app/'
+        projectLink:'https://top100coinapp.netlify.app/'
 
 
     },

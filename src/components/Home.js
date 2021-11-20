@@ -105,10 +105,11 @@ const Home = () => {
                                                             </Button>
                                                         </Col>
                                                         <Col>
-                                                            <Button href={project.githubLink} className="buttons" disabled={true}>
+                                                            <Button href={project.projectLink} className="buttons">
                                                                 Link to Project
                                                             </Button>
                                                         </Col>
+                                                        
                                                     </Row>
                                                 </CardBody>
                                             </Card>
