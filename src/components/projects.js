@@ -4,8 +4,8 @@ export const projects = [
         stack:"React",
         technologies:"Bootstrap, axios, React-router,Redux",
         description: "blah",
-        githubLink:'https://github.com/chaunceyplum/ReactProject'
-
+        githubLink:'https://github.com/chaunceyplum/ReactProject',
+        projectLink:'https://classycutz.netlify.app'
 
     },
     {
@@ -13,14 +13,16 @@ export const projects = [
         stack:"Node",
         technologies:"Express",
         description: "blah",
-        githubLink:'https://github.com/chaunceyplum/ReactProjectBackend'
+        githubLink:'https://github.com/chaunceyplum/ReactProjectBackend',
+        projectLink:''
     },
     {
         name:"GameHop",
         stack:"React",
         technologies:"Bootstrap, axios, React-router,Redux",
         description: "blah",
-        githubLink:'https://github.com/chaunceyplum/GameHop'
+        githubLink:'https://github.com/chaunceyplum/GameHop',
+        projectLink:'https://gamehop.netlify.app/'
 
 
     },
@@ -29,7 +31,8 @@ export const projects = [
         stack:"React",
         technologies:"Bootstrap, Axios,Redux",
         description: "blah",
-        githubLink:''
+        githubLink:'https://github.com/chaunceyplum/GameHop',
+        projectLink:'https://cryptoreactappp.netlify.app/'
 
 
     },
@@ -38,7 +41,8 @@ export const projects = [
         stack:"HTML, CSS",
         technologies:"Bootstrap",
         description: "blah",
-        githubLink:''
+        githubLink:'https://github.com/chaunceyplum/project-1',
+        projectLink:'https://chaunceyplum.github.io/project-1/'
 
 
     },
