@@ -14,7 +14,7 @@ export const projects = [
         technologies:"Express",
         description: "blah",
         githubLink:'https://github.com/chaunceyplum/ReactProjectBackend',
-        projectLink:''
+        projectLink:'https://classycutzbackend.herokuapp.com/'
     },
     {
         name:"GameHop",
