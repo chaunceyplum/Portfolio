@@ -7,6 +7,7 @@ import Home from './components/Home'
 import Lobby from './components/Lobby';
 import Resume from './components/Resume'
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import NotFound from './components/NotFound';
 
 const App = () => {
   
@@ -22,6 +23,7 @@ const App = () => {
             <Route exact path ="/" element={<Lobby />}  />
             <Route exact path="/home" element={<Home />} />
             <Route exact path="/resume" element={<Resume />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </CSSTransition>
       </TransitionGroup>

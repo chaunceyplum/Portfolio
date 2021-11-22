@@ -30,7 +30,7 @@ const Home = () => {
                             About Me
                         </h6>
                         <p>
-                            
+                            I am a
                         </p>
                         <h6 className="">
                             Languages I use
@@ -54,7 +54,7 @@ const Home = () => {
                                 </Button>
                             </Col>
                             <Col className="d-flex justify-content-center spacer">
-                                <Button href='https://twitter.com/chaveloper' className='buttons'  size="20em">
+                                <Button href='https://twitter.com/chaunce_dev' className='buttons'  size="20em">
                                     <FaTwitter />
                                 </Button>
                             </Col>
@@ -95,6 +95,11 @@ const Home = () => {
                                                     <p>
                                                         {
                                                             `Technologies Used: ${project.technologies}`
+                                                        }
+                                                    </p>
+                                                    <p>
+                                                        {
+                                                            project.description
                                                         }
                                                     </p>
                                                     

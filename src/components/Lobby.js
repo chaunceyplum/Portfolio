@@ -9,7 +9,7 @@ const Lobby = () => {
                     Hey! I'm Chauncey. 
                 </h3>
                 <p className="text-center spacer">
-                    An infeciously enthusiastic Full Stack bootcamp graduate with fundamental knowledge of web development. Seeking to utilize advanced expertise in javaScript
+                An infectiously enthusiastic Full Stack Bootcamp graduate with fundamental knowledge of web development. Seeking to utilize advanced expertise in javaScript
                 </p> 
                 <Row>
                     <Col />
