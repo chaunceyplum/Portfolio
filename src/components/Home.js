@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { Button, Card, CardBody, CardHeader, Col, Container, Row } from 'reactstrap'
+import { Button, Card, CardBody, CardHeader, CardImg, Col, Container, Row } from 'reactstrap'
 import {projects} from './projects'
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaReact, FaHtml5, FaCss3, FaNodeJs, FaJs } from 'react-icons/fa'
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -30,15 +30,15 @@ const Home = () => {
                             About Me
                         </h6>
                         <p>
-                            I am a
+                            An infectiously enthusiastic Full Stack Bootcamp graduate with fundamental knowledge of web development seeking to utilize advanced expertise in javaScript.
                         </p>
-                        <h6 className="">
-                            Languages I use
+                        <h6 className="spacer">
+                            Technologies I use
                         </h6>
                         <ul className="unstyle spacer ">
-                            <li className="unstyle spacer ">HTML</li>
-                            <li className="unstyle spacer ">CSS</li>
-                            <li className="unstyle spacer ">JavaScript</li>
+                            <li className="unstyle spacer "><FaReact /> React</li>
+                            <li className="unstyle spacer "><FaNodeJs /> Node Js</li>
+                            <li className="unstyle spacer "><FaJs />JavaScript</li>
                         </ul>
                         
                         <Row className="centerFooter justify-content-space-evenly spacer" >
@@ -81,13 +81,15 @@ const Home = () => {
                                 projects.map((project, index) => {
                                     return(
                                         <div className=""  key={index}>
-                                            <Card className="rounded">
+                                            <Card className="">
                                                 <CardHeader className="cardHeader">
-                                                    <h3>
+                                                    <h3 className="spacer">
                                                         {project.name}
                                                     </h3>
+
+                                                    <CardImg src={project.image}  />
                                                 </CardHeader>
-                                                <br className="bg1 !important" />
+                                                
                                                 <CardBody className="cardBg">
                                                     <p>
                                                         {`Project Stack: ${project.stack}`}
@@ -118,6 +120,10 @@ const Home = () => {
                                                     </Row>
                                                 </CardBody>
                                             </Card>
+                                            <br />
+                                            <br />
+                                            <br />
+                                            <br />
                                             <br />
                                             <br />
                                         </div>

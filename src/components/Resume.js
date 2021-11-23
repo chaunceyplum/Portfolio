@@ -1,6 +1,7 @@
 import React from 'react'
-import { FaGithub } from 'react-icons/fa'
+import { SiRedux, SiMongodb } from 'react-icons/si'
 import { Button, Col, Container, Row } from 'reactstrap'
+import {  FaInstagram, FaLinkedin, FaTwitter, FaReact, FaHtml5, FaCss3, FaNodeJs, FaJs, FaBootstrap,  FaSass, FaGithub, FaLinux, FaNetworkWired} from 'react-icons/fa'
 
 const Resume = () => {
     return (
@@ -28,12 +29,15 @@ const Resume = () => {
                                         </h4>
                                         <ul className="unstyle">
                                             <li className="spacer ">
+                                                <FaHtml5 />
                                                 HTML5
                                             </li>
                                             <li className="spacer">
+                                                <FaCss3 />
                                                 CSS3
                                             </li>
                                             <li className="spacer">
+                                                <FaJs />
                                                 JavaScript
                                             </li>
                                         </ul>
@@ -47,27 +51,34 @@ const Resume = () => {
                                 <ul className="unstyle">
 
                                     <li className="spacer">
+                                        <FaReact />
                                         React
                                     </li>
                                     <li className="spacer">
+                                        <FaReact />
                                         React Native
                                     </li>
                                     <li className="spacer">
+                                        <SiRedux />
                                         Redux
                                     </li>
                                     <li className="spacer">
+                                        <FaBootstrap />
                                         Bootstrap
                                     </li>
                                     <li className="spacer">
+                                        <FaNodeJs />
                                         Node
                                     </li>
                                     <li className="spacer">
                                         Express
                                     </li>
                                     <li className="spacer">
+                                        <SiMongodb />
                                         MongoDB
                                     </li>
                                     <li className="spacer">
+                                        <FaSass />
                                         Sass
                                     </li>
                                     <li className="spacer">
@@ -77,15 +88,18 @@ const Resume = () => {
                                         Responsive/Mobile Design
                                     </li>
                                     <li className="spacer">
+                                        <FaGithub />
                                         Git
                                     </li>
                                     <li className="spacer">
                                         CI/CD
                                     </li>
                                     <li className="spacer">
+                                        <FaLinux />
                                         UNIX/LINUX
                                     </li>
                                     <li className="spacer">
+                                        <FaNetworkWired />
                                         Network Administration
                                     </li>
                                 </ul>
