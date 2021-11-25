@@ -178,26 +178,7 @@ const Resume = () => {
                                 </ul>
                             </Row>
                         </Col>
-                        <Col className="col col-4" xs={12} >
-                            
-                        <Row className="spacer">
-                                <h4 className="bg2  spacer">
-                                    My Languages
-                                </h4>
-                                <ul className="unstyle">
-                                    <li className="spacer ">
-                                        HTML5
-                                    </li>
-                                    <li className="spacer">
-                                        CSS3
-                                    </li>
-                                    <li className="spacer">
-                                        JavaScript
-                                    </li>
-                                </ul>
-                            </Row>
-
-                        </Col >
+                        
 
                     
                     
