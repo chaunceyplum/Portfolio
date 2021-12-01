@@ -18,7 +18,7 @@ const Resume = () => {
                                     Chauncey Plummer
                                 </h3>
                                 <h6 className="spacer ">
-                                    Full Stack Web Developer
+                                    Front End Web Developer
                                 </h6>
                             </Row>
                             <Col className="col col-4" xs={12} >

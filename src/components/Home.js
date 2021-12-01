@@ -22,7 +22,7 @@ const Home = () => {
                             Chauncey Plummer
                         </h3>
                         <h6 className="spacer">
-                            Full Stack Web Developer
+                            Front End Web Developer
                         </h6>
                         <img />
 
@@ -30,7 +30,7 @@ const Home = () => {
                             About Me
                         </h6>
                         <p>
-                            An infectiously enthusiastic Full Stack Bootcamp graduate with fundamental knowledge of web development seeking to utilize advanced expertise in javaScript.
+                        An infectiously enthusiastic Front End Web Developent Bootcamp graduate with fundamental knowledge of web development. Seeking to utilize advanced expertise in javaScript
                         </p>
                         <h6 className="spacer">
                             Technologies I use
