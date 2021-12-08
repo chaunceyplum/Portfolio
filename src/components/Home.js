@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Button, Card, CardBody, CardHeader, CardImg, Col, Container, Row } from 'reactstrap'
 import {projects} from './projects'
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaReact, FaHtml5, FaCss3, FaNodeJs, FaJs } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaReact, FaHtml5, FaCss3, FaNodeJs, FaJs, FaBootstrap } from 'react-icons/fa'
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -38,7 +38,7 @@ const Home = () => {
                         <ul className="unstyle spacer ">
                             <li className="unstyle spacer "><FaReact /> React</li>
                             <li className="unstyle spacer "><FaNodeJs /> Node Js</li>
-                            <li className="unstyle spacer "><FaJs />JavaScript</li>
+                            <li className="unstyle spacer "><FaBootstrap />Bootstrap</li>
                         </ul>
                         
                         <Row className="centerFooter justify-content-space-evenly spacer" >
