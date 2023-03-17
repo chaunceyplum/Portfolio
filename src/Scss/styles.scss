@@ -35,11 +35,11 @@ p {
 }
 html,
 body {
-  width: 100%;
+  width: 100vh;
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 //    NAV SCSS
@@ -63,18 +63,17 @@ body {
 
 //  HOME SCSS
 .bg {
-  background-color: $primaryColor;
-  color: $lightColor;
-  text-align: center;
+  background-color: $primaryColor !important;
+  color: $lightColor !important;
 }
 .bg1 {
   background-color: $secondaryColor !important;
   color: $lightColor;
   border: solid $thirdColor;
-  text-align: center;
 }
 .bg2 {
-  background-color: $thirdColor;
+  background-color: $thirdColor !important;
+  color: $lightColor !important;
 }
 .bg3 {
   background-color: $fourthColor;
@@ -112,7 +111,7 @@ body {
   height: 100vh;
 }
 .lobbySpacer {
-  margin: auto;
+  //margin: auto;
   display: flex;
   justify-content: center;
 }

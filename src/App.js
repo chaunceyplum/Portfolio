@@ -12,13 +12,13 @@ import NotFound from './components/NotFound'
 const App = () => {
   return (
     <div className='bg'>
-      <Mynav />
+      <Mynav className='bg' />
       {/* <TransitionGroup>
         <CSSTransition key={Location.key} classNames='page' timeout={300}> */}
-      <Routes>
+      <Routes className='bg'>
         <Route exact path='/' element={<Lobby />} />
         <Route exact path='/home' element={<Home />} />
-        <Route exact path='/resume' element={<Resume />} />
+        {/* <Route exact path='/resume' element={<Resume />} /> */}
         <Route path='*' element={<NotFound />} />
       </Routes>
       {/* </CSSTransition>
