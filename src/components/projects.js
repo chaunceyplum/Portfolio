@@ -35,16 +35,16 @@ export const projects = [
     projectLink: 'https://classycutzbackend.herokuapp.com/',
     image: classyBack,
   },
-  {
-    name: 'GameHop',
-    stack: 'React',
-    technologies: 'Bootstrap, Axios, React-router',
-    description:
-      'Ecommerce game app built using react with a shopping cart component',
-    githubLink: 'https://github.com/chaunceyplum/GameHop',
-    projectLink: 'https://gamehop.netlify.app/',
-    image: game,
-  },
+  // {
+  //   name: 'GameHop',
+  //   stack: 'React',
+  //   technologies: 'Bootstrap, Axios, React-router',
+  //   description:
+  //     'Ecommerce game app built using react with a shopping cart component',
+  //   githubLink: 'https://github.com/chaunceyplum/GameHop',
+  //   projectLink: 'https://gamehop.netlify.app/',
+  //   image: game,
+  // },
   {
     name: 'Coincap Cryptocurrency App',
     stack: 'React',
@@ -55,13 +55,13 @@ export const projects = [
     projectLink: 'https://top100coinapp.netlify.app/',
     image: crypto,
   },
-  {
-    name: 'Famous Deli',
-    stack: 'HTML, CSS',
-    technologies: 'Bootstrap',
-    description: 'Static website made using HTML, CSS and Bootstrap',
-    githubLink: 'https://github.com/chaunceyplum/project-1',
-    projectLink: 'https://chaunceyplum.github.io/project-1/',
-    image: famous,
-  },
+  // {
+  //   name: 'Famous Deli',
+  //   stack: 'HTML, CSS',
+  //   technologies: 'Bootstrap',
+  //   description: 'Static website made using HTML, CSS and Bootstrap',
+  //   githubLink: 'https://github.com/chaunceyplum/project-1',
+  //   projectLink: 'https://chaunceyplum.github.io/project-1/',
+  //   image: famous,
+  // },
 ]
